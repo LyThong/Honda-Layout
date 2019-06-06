@@ -1,0 +1,27 @@
+.navbar-brand{
+    margin-right: 0 !important;
+
+}
+.navbar{
+    padding: 0 ;
+}
+
+#header{
+    background-color: $color-blue-100;
+    a{
+        color: white;
+        padding:$pd-3 $pd-4;
+        border-right:$border-1;
+        border-left:$border-1;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+    .navbar > a:first-child{
+        padding: 0 $pd-4;
+        border: none;
+    }
+}
+.no-border{
+
+    border: 0 !important;
+}
